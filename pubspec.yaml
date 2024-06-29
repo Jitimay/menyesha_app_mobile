@@ -1,0 +1,48 @@
+name: menyesha
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to pub.dev using `flutter pub publish`.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version and build number
+version: 1.0.0+1
+
+# Environment SDK version
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  curved_navigation_bar: ^1.0.6
+  url_launcher: ^6.3.0
+  webview_flutter: ^4.8.0
+  table_calendar: ^3.1.2
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+
+# Flutter icons for launcher
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.9.2
+
+# Flutter-specific configurations
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/images/book1.png
+    - lib/images/book2.jpg
+    - lib/images/book3.jpg
+    - lib/images/image_3.jpg
